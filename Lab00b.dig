@@ -31,7 +31,7 @@
           <string>led1</string>
         </entry>
       </elementAttributes>
-      <pos x="420" y="140"/>
+      <pos x="420" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Switch</elementName>
@@ -45,7 +45,7 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="500" y="200"/>
+      <pos x="400" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Switch</elementName>
@@ -59,45 +59,41 @@
           <boolean>true</boolean>
         </entry>
       </elementAttributes>
-      <pos x="500" y="260"/>
+      <pos x="540" y="140"/>
     </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="420" y="0"/>
-      <p2 x="460" y="0"/>
+      <p1 x="400" y="200"/>
+      <p2 x="420" y="200"/>
     </wire>
     <wire>
-      <p1 x="420" y="260"/>
-      <p2 x="500" y="260"/>
+      <p1 x="440" y="220"/>
+      <p2 x="540" y="220"/>
     </wire>
     <wire>
-      <p1 x="420" y="140"/>
-      <p2 x="460" y="140"/>
+      <p1 x="420" y="300"/>
+      <p2 x="580" y="300"/>
     </wire>
     <wire>
-      <p1 x="420" y="220"/>
-      <p2 x="500" y="220"/>
+      <p1 x="400" y="200"/>
+      <p2 x="400" y="220"/>
     </wire>
     <wire>
       <p1 x="420" y="-80"/>
-      <p2 x="420" y="0"/>
+      <p2 x="420" y="80"/>
     </wire>
     <wire>
-      <p1 x="420" y="260"/>
-      <p2 x="420" y="300"/>
+      <p1 x="420" y="160"/>
+      <p2 x="420" y="200"/>
     </wire>
     <wire>
-      <p1 x="500" y="200"/>
-      <p2 x="500" y="220"/>
+      <p1 x="580" y="140"/>
+      <p2 x="580" y="300"/>
     </wire>
     <wire>
-      <p1 x="460" y="0"/>
-      <p2 x="460" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="200"/>
-      <p2 x="540" y="260"/>
+      <p1 x="540" y="140"/>
+      <p2 x="540" y="220"/>
     </wire>
   </wires>
   <measurementOrdering/>
