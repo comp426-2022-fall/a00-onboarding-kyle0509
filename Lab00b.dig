@@ -37,16 +37,8 @@
       <elementName>Switch</elementName>
       <elementAttributes>
         <entry>
-          <string>Closed</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Label</string>
           <string>switch1</string>
-        </entry>
-        <entry>
-          <string>switchActsAsInput</string>
-          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="420" y="0"/>
@@ -55,16 +47,8 @@
       <elementName>Switch</elementName>
       <elementAttributes>
         <entry>
-          <string>Closed</string>
-          <boolean>true</boolean>
-        </entry>
-        <entry>
           <string>Label</string>
           <string>switch2</string>
-        </entry>
-        <entry>
-          <string>switchActsAsInput</string>
-          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="420" y="80"/>
