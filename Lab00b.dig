@@ -40,8 +40,12 @@
           <string>Label</string>
           <string>switch1</string>
         </entry>
+        <entry>
+          <string>switchActsAsInput</string>
+          <boolean>true</boolean>
+        </entry>
       </elementAttributes>
-      <pos x="300" y="60"/>
+      <pos x="380" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Switch</elementName>
@@ -50,8 +54,12 @@
           <string>Label</string>
           <string>switch2</string>
         </entry>
+        <entry>
+          <string>switchActsAsInput</string>
+          <boolean>true</boolean>
+        </entry>
       </elementAttributes>
-      <pos x="360" y="60"/>
+      <pos x="300" y="60"/>
     </visualElement>
   </visualElements>
   <wires>
@@ -61,10 +69,10 @@
     </wire>
     <wire>
       <p1 x="340" y="60"/>
-      <p2 x="360" y="60"/>
+      <p2 x="380" y="60"/>
     </wire>
     <wire>
-      <p1 x="400" y="60"/>
+      <p1 x="420" y="60"/>
       <p2 x="460" y="60"/>
     </wire>
     <wire>
