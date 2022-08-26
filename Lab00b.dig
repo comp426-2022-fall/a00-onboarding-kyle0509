@@ -40,10 +40,6 @@
           <string>Label</string>
           <string>switch1</string>
         </entry>
-        <entry>
-          <string>switchActsAsInput</string>
-          <boolean>true</boolean>
-        </entry>
       </elementAttributes>
       <pos x="300" y="60"/>
     </visualElement>
@@ -53,10 +49,6 @@
         <entry>
           <string>Label</string>
           <string>switch2</string>
-        </entry>
-        <entry>
-          <string>switchActsAsInput</string>
-          <boolean>true</boolean>
         </entry>
       </elementAttributes>
       <pos x="360" y="60"/>
