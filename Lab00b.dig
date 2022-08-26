@@ -11,7 +11,7 @@
           <string>ground</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="200"/>
+      <pos x="420" y="300"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -21,7 +21,7 @@
           <string>power</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="200"/>
+      <pos x="420" y="-80"/>
     </visualElement>
     <visualElement>
       <elementName>PolarityAwareLED</elementName>
@@ -31,7 +31,7 @@
           <string>led1</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="180"/>
+      <pos x="420" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Switch</elementName>
@@ -40,8 +40,12 @@
           <string>Label</string>
           <string>switch1</string>
         </entry>
+        <entry>
+          <string>switchActsAsInput</string>
+          <boolean>true</boolean>
+        </entry>
       </elementAttributes>
-      <pos x="220" y="200"/>
+      <pos x="420" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Switch</elementName>
@@ -50,10 +54,43 @@
           <string>Label</string>
           <string>switch2</string>
         </entry>
+        <entry>
+          <string>switchActsAsInput</string>
+          <boolean>true</boolean>
+        </entry>
       </elementAttributes>
-      <pos x="320" y="200"/>
+      <pos x="420" y="80"/>
     </visualElement>
   </visualElements>
-  <wires/>
+  <wires>
+    <wire>
+      <p1 x="420" y="40"/>
+      <p2 x="460" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="140"/>
+      <p2 x="460" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="220"/>
+      <p2 x="420" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-80"/>
+      <p2 x="420" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="40"/>
+      <p2 x="420" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="0"/>
+      <p2 x="460" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="80"/>
+      <p2 x="460" y="140"/>
+    </wire>
+  </wires>
   <measurementOrdering/>
 </circuit>
