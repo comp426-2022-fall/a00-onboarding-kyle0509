@@ -37,6 +37,10 @@
       <elementName>Switch</elementName>
       <elementAttributes>
         <entry>
+          <string>Closed</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
           <string>Label</string>
           <string>switch1</string>
         </entry>
@@ -50,6 +54,10 @@
     <visualElement>
       <elementName>Switch</elementName>
       <elementAttributes>
+        <entry>
+          <string>Closed</string>
+          <boolean>true</boolean>
+        </entry>
         <entry>
           <string>Label</string>
           <string>switch2</string>
