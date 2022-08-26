@@ -11,7 +11,7 @@
           <string>ground</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="140"/>
+      <pos x="700" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>VDD</elementName>
@@ -21,7 +21,7 @@
           <string>power</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="40"/>
+      <pos x="600" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>PolarityAwareLED</elementName>
@@ -31,7 +31,7 @@
           <string>led1</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="60"/>
+      <pos x="460" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Switch</elementName>
@@ -40,12 +40,8 @@
           <string>Label</string>
           <string>switch1</string>
         </entry>
-        <entry>
-          <string>switchActsAsInput</string>
-          <boolean>true</boolean>
-        </entry>
       </elementAttributes>
-      <pos x="380" y="60"/>
+      <pos x="220" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Switch</elementName>
@@ -54,31 +50,10 @@
           <string>Label</string>
           <string>switch2</string>
         </entry>
-        <entry>
-          <string>switchActsAsInput</string>
-          <boolean>true</boolean>
-        </entry>
       </elementAttributes>
-      <pos x="300" y="60"/>
+      <pos x="320" y="200"/>
     </visualElement>
   </visualElements>
-  <wires>
-    <wire>
-      <p1 x="260" y="60"/>
-      <p2 x="300" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="60"/>
-      <p2 x="380" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="420" y="60"/>
-      <p2 x="460" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="260" y="40"/>
-      <p2 x="260" y="60"/>
-    </wire>
-  </wires>
+  <wires/>
   <measurementOrdering/>
 </circuit>
